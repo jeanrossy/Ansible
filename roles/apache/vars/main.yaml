@@ -1,0 +1,10 @@
+http_port: 80
+package_name: apache2
+service_name: apache2
+document_root: /var/www/html
+website_name: www.basil.com
+website_list:
+    - www.basil.com
+    - www.devops.com
+    - www.example.com
+    - www.test.com

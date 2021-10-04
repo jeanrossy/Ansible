@@ -1,0 +1,6 @@
+- name: install php and mysql for php
+  apt:
+    name: "{{package_list}}"
+    state: latest
+    update_cache: yes
+  notify: Restart apache
